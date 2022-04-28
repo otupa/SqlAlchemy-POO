@@ -40,7 +40,6 @@ def db_connector(func):
         with DBConnectionHendler() as connection:
             try:
                 query = func(cls, connection, *args)
-                print('klsadjsd')
                 return query
             except:
                 connection.session.rollback()

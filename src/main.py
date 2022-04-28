@@ -1,4 +1,5 @@
 # pylint: disable=import-outside-toplevel, unused-import, no-value-for-parameter
+
 """ Aplication Factory """
 
 def init_app():
